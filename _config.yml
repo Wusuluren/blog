@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: nano的记事本
 subtitle:
 description:
-author: John Doe
+author: nano
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://wusu.coding.me/blog
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -28,13 +28,13 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -69,5 +69,8 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://git.coding.net/wusu/blog.git
+  repo: git@git.coding.net:wusu/blog.git
   branch: master
+
+# Comment
+duoshuo_shortname: wusu
