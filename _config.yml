@@ -12,8 +12,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wusu.coding.me/blog
-root: /blog
+#url: http://wusu.coding.me/blog
+url: http://wusu.tk
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -74,3 +75,16 @@ deploy:
 
 # Comment
 duoshuo_shortname: wusu
+
+# Baidu Tongji
+baidu_tongji: true
+
+# Baidu Tuiguang
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+search:
+  path: search.xml
+  field: post

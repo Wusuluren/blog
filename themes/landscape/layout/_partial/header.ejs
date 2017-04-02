@@ -1,4 +1,6 @@
 <header id="header">
+  <meta name="baidu-site-verification" content="BjBjmt2ZeG" />
+  
   <div id="banner"></div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
@@ -25,8 +27,31 @@
         <a id="nav-search-btn" class="nav-icon" title="<%= __('search') %>"></a>
       </nav>
       <div id="search-form-wrap">
-        <%- search_form({button: '&#xF002;'}) %>
+      <!--
+        <%- search_form({button: '&#xF002;'}) %>   
+      -->
+
+        <form class="search-form" onsubmit="return false;"><input id="local-search-input" type="text" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button></form>
+        <div id="local-search-result"></div> 
       </div>
+
+      <!-- 
+      <div id="site_search">
+      <input type="text" id="local-search-input" name="q" results="0" placeholder="search my blog..." class="form-control"/>
+      <div id="local-search-result"></div>
+      
+      <form id="search-form">
+      <input type="text" id="local-search-input" name="q" results="0" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off"/>
+      <i class="fa fa-times" onclick="resetSearch()"></i> 
+      </form>
+      </div>
+      -->
+
+      <br><br><br><br>
+      <div id="local-search-result"></div> 
+      <p class='no-result'>No results found </p>
+      
+
     </div>
   </div>
 </header>
