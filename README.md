@@ -1,2 +1,0 @@
-# blog
-base on hexo.
