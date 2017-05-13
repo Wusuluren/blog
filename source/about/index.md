@@ -5,5 +5,4 @@ comments: false
 ---
 邮箱：1634636348@qq.com  
 Github：https://github.com/Wusuluren  
-个人介绍：http://post.pythonanywhere.com/resume
 网易云音乐：http://music.163.com/playlist/116136494/98064258/?userid=98064258
